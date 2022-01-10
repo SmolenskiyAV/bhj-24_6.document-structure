@@ -20,7 +20,7 @@ function taskAdd(taskValue) {    // функция ДОБАВЛЕНИЯ НОВО
         for (let i = 0; i < taskTextItems.length; i++) {       // перебор элементов созданных(новых) задач     
      
             let deletRef = taskTextItems[i].nextElementSibling; // элемент-ссылка a.href внутри одиночной задачи из списка a.task__remove (крестик "удалить задачу")
-            console.log(deletRef);
+            //console.log(deletRef);
             
             if (deletRef !== null) {
             deletRef.onclick = taskRemove;  // присвоение через цикл onclick-события элементам из списка задач, содержащим ссылку "удалить задачу"

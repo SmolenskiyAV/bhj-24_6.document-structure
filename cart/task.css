@@ -1,10 +1,26 @@
 body {
   font-family: Arial;
 }
+
+.cart {
+  display: none;
+}
+
+.cart_not_empty {
+  display: flex;
+}
+
+.prod__remove {
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .cart__products {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .cart__product {
